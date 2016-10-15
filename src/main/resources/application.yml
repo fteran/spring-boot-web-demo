@@ -1,0 +1,8 @@
+logging:
+  file: ${CATALINA_HOME}/logs/@artifactId@.log
+  pattern:
+    console: "%d %-5level %logger : %msg%n"
+    file: "%d %-5level [%thread] %logger : %msg%n"
+  level:
+    root: INFO
+    org.springframework.web: INFO
